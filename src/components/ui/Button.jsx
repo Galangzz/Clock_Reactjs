@@ -7,7 +7,10 @@ const Button = (prop) =>{
     return (
         
         <button 
-        className={`p-2 rounded-lg ${variant} ${Hover}  focus:outline-none focus:ring focus:ring-slate-300 ease-in-out duration-900`} 
+        className={`p-2 rounded-lg ${variant} ${Hover} 
+        focus:outline-none 
+        focus:ring focus:ring-slate-300 
+        ease-in-out duration-900`} 
         onClick={onClick}
         disabled = {disabled}
         >
